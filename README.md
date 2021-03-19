@@ -24,7 +24,7 @@ This error indicates that there may not be an index file in the baconfile direct
 **Well, aren't you naughty?** This usually occurs when you attempt to escape the baconfile directory.
 ### `BACON/404 (Not Found)`
 The page which you are requesting doesn't exist.
-### `BACON/405 (Internal Error)`
+### `BACON/500 (Internal Error)`
 This means that the baconfile directory does not exist.
 
 ## Config Options
@@ -32,6 +32,6 @@ baconcall.php has several configuration options you can set.
 ### `$bacon_indexfile`
 The filename that the script looks for if there is no requested BID.
 ### `$bacon_errors`
-A list of error messages to display when something goes wrong, in the form of `[ 400, 405, 403, 404 ]`.
+A list of error messages to display when something goes wrong, in the form of `[ 400, 500, 403, 404 ]`.
 ### `$bacon_baconfiles`
 The directory to serve baconfiles from.
