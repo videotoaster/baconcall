@@ -1,6 +1,6 @@
 # baconcall
 Serves text files to users.<br>
-Flagship instance at [videotoaster's website](https://videotoaster.warsawpakt.xyz/baconcall.php).<br>
+Flagship instance at [videotoaster's website](https://bacon.videotoaster.ga/baconcall.php).<br>
 ## Features
 - Blocks / and .. access
 - Serves plaintext
